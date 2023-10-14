@@ -5,15 +5,18 @@
 
 #main-navbar ul {
   float: left;
+  left: 50%;
   list-style-type: none;               
   margin: 0;                               
   padding: 0;                             
-  display: block;
   position: relative;    
 }
 
 #main-navbar ul li {
+  display: block;
   float: left;
+  position: relative;
+  right: 50%;
 }
 
 #main-navbar ul li a{
@@ -30,9 +33,7 @@
 #navbar-container {
   width: 100%;
   position: relative;
-  left: 50%;
-  right: 50%;  
-  display: block;
+  float: left;
 }
 
 #main-navbar #onpage {
