@@ -4,6 +4,7 @@
 }
 
 #main-navbar ul {
+  float: left;
   list-style-type: none;               
   margin: 0;                               
   padding: 0;                             
@@ -13,7 +14,6 @@
 
 #main-navbar ul li {
   float: left;
-  display: block;
 }
 
 #main-navbar ul li a{
@@ -32,6 +32,7 @@
   position: relative;
   left: 50%;
   right: 50%;  
+  display: block;
 }
 
 #main-navbar #onpage {
