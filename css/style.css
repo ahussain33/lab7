@@ -1,9 +1,6 @@
 #main-navbar {
   background-color: blue; 
   overflow: hidden;
-  width: 100%;
-  left: 50%; 
-  right: 50%;
 }
 
 #main-navbar ul {
@@ -24,16 +21,17 @@
   padding: 10px 20px;
   color: #fff;
   text-decoration: none;
-  color: #fff;  
 }
 
 #main-navbar ul li a:hover {
    background-color: #000;
 }
 
-#main-navbar-container {
+#navbar-container {
   width: 100%;
   position: relative;
+  left: 50%;
+  right: 50%;  
 }
 
 #main-navbar #onpage {
@@ -41,8 +39,26 @@
 }
 
 #sidebar {
-  
+	background-color: red;
+	height: 100%;
+    width: 20%;
+	position: fixed;
 }
 
-#sidebar-container {
+#sidebar ul {
+	list-style-type: none;
+	right:0%;
+	padding: 0;
+}
+
+#sidebar ul li a{
+	text-decoration: none;
+	display: block;
+	text-align: center;
+	color: #fff;
+	padding: 15px 0;
+}
+
+#sidebar ul li a:hover{
+	background-color: #000;
 }
