@@ -4,19 +4,19 @@
   width: 100%; 
 }
 
-#navbar ul {
+#main-navbar ul {
   list-style-type: none;               
   margin: 0;                               
   padding: 0;                             
   display: block;
 }
 
-#navbar ul li {
+#main-navbar ul li {
   float: left;
   display: block;
 }
 
-#navbar ul li a{
+#main-navbar ul li a{
   display: block;
   padding: 10px 20px;
   color: #fff;
@@ -24,16 +24,16 @@
   color: #fff;
 }
 
-#navbar ul li a:hover {
+#main-navbar ul li a:hover {
    background-color: #000;
 }
 
-#navbar-container {
+#main-navbar-container {
   width: 100%;
   position: relative;
 }
 
-#navbar #onpage {
+#main-navbar #onpage {
    text-decoration: underline overline;
 }
 
