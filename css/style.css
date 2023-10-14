@@ -9,6 +9,9 @@
   margin: 0;                               
   padding: 0;                             
   display: block;
+  left: 50%; 
+  right: 50%;
+  position: relative;    
 }
 
 #main-navbar ul li {
@@ -21,7 +24,7 @@
   padding: 10px 20px;
   color: #fff;
   text-decoration: none;
-  color: #fff;
+  color: #fff;  
 }
 
 #main-navbar ul li a:hover {
