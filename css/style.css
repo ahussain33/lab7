@@ -12,6 +12,7 @@
 
 #navbar ul li {
   float: left;
+  display: block;
 }
 
 #navbar ul li a{
@@ -19,6 +20,7 @@
   padding: 10px 20px;
   color: #fff;
   text-decoration: none;
+  color: #fff;
 }
 
 #navbar ul li a:hover {
